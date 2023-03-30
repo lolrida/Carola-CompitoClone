@@ -1,0 +1,30 @@
+   39  git aDD .
+   40  git add .
+   41  git commit -m "errore risolto in stampa"
+   42  git log
+   43  git status
+   44  touch stampa.cpp
+   45  ls
+   46  touch stampa.cpp
+   47  git log 
+   48  git reset --hard HEAD^
+   49  ls
+   50  cat stampa.cpp 
+   51  ls
+   52  git log
+   53  git checkout master
+   54  git commit -m "inserito nome"
+   55  git log
+   56  git checkout BugFix
+   57  git status
+   58  nano stampa.cpp 
+   59  git status
+   60  git add .
+   61  git commit -m "errore risolto in stampa"
+   62  git log
+   63  git checkout master
+   64  git merge BugFix
+   65  git log
+   66  git branch -d BugFix
+   67  git log
+   68  history 30 > comandi.txt
